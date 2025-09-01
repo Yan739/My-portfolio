@@ -1,15 +1,17 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import AboutSection from "./components/AboutSection";
+import ContactSection from "./components/ContactSection";
+import HeroSection from "./components/HeroSection";
+import ProjectsSection from "./components/ProjectSection";
 
-export default function Home() {
+const HomePage = () => {
   return (
-    <>
-      <h1 className="text-4xl font-bold p-8 bg-indigo-600">
-        Welcome to My Portfolio
-      </h1>
-      <p className="mt-4 text-lg">
-        This is a showcase of my work and projects.
-      </p>
-    </>
+    <main className="bg-dark text-light">
+      <HeroSection className="animate-fadeInUp" />
+      <AboutSection className="animate-fadeInUp" />
+      <ProjectsSection className="animate-fadeInUp" />
+      <ContactSection className="animate-fadeInUp" />
+    </main>
   );
-}
+};
+
+export default HomePage;
