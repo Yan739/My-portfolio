@@ -47,5 +47,29 @@ const projects: Project[] = [
     githubUrl: "http://www.github.com/Yan739",
     category: "mobile",
   },
+  {
+    id: 5,
+    title: "API REST DAILY-PLANNER",
+    description:
+      "API REST pour la gestion des tâches, objectifs, etc et consultation de la météo",
+    image:
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
+    technologies: ["Node.js", "Nest.js", "MariaDB", "JWT", "Docker"],
+    liveUrl: "#",
+    githubUrl: "http://www.github.com/Yan739",
+    category: "backend",
+  },
+  {
+    id: 6,
+    title: "DAILY-PLANNER : Tasks, objectives, notes and weather",
+    description:
+      "Application moderne de gestion des tâches, des objectifs, des notes et de la météo.",
+    image:
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
+    technologies: ["React", "D3.js", "WebSocket", "Chart.js", "Tailwind"],
+    liveUrl: "#",
+    githubUrl: "http://www.github.com/Yan739",
+    category: "frontend",
+  },
 ];
 export default projects;
