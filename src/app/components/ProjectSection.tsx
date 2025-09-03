@@ -50,7 +50,7 @@ const ProjectsSection = ({ className }: ProjectsSectionProps) => {
         </div>
 
         {/* Grille de projets */}
-        /*<div className="grid md:grid-cols-2 xl:grid-cols-3 gap-8 max-w-7xl mx-auto">
+        <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-8 max-w-7xl mx-auto">
           {filteredProjects.map((project, index) => (
             <ProjectCard
               key={project.id}
