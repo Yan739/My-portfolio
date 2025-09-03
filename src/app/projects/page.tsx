@@ -1,6 +1,6 @@
 import { useState } from "react";
-import ProjectsSection from "src/components/ProjectSection";
-import projects from "src/data/projects";
+import ProjectsSection from "../components/ProjectSection";
+import projects from "../data/projects";
 
 
 const ProjectsPage = () => {
